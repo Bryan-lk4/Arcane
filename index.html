@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/css/style.css">
+    <title>Arcane Bryan lk</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <!--
+                resumé
+                Personnage
+                Contactez Moi
+            -->
+            <ul>
+                <li><a href="#story">Story</a></li>
+                <li><a href="#protagonist">protagonist</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h1 id="typewriter-Header"></h1>
+        </div>
+    </header>
+    <div class="container">
+        <section id="story" class="story">
+            <!--"Arcane" est une série animée captivante se déroulant dans l'univers de "League of Legends". L'histoire se déroule dans les cités rivales de Piltover, un centre de technologie et de progrès, et Zaun, une cité souterraine sombre et défavorisée. Elle suit deux sœurs, Vi et Jinx, dont les destins divergent radicalement. Alors que Piltover cherche à maintenir sa dominance, des forces obscures à Zaun menacent l'équilibre fragile. La série explore des personnages complexes, des mystères intrigants et des thèmes de pouvoir, de sacrifice et de rédemption, offrant un voyage visuellement époustouflant et émotionnellement intense dans l'univers de "League of Legends" -->
+            <h1>Story</h1>
+
+            <p>Arcane is a captivating animated series set in the world of "League of Legends." It unfolds in the rival
+                cities of Piltover, a hub of technology and progress, and Zaun, a dark and disadvantaged underground
+                city. The story follows two sisters, Vi and Jinx, whose paths diverge dramatically. As Piltover aims to
+                maintain its dominance, dark forces in Zaun threaten the delicate balance. The series explores complex
+                characters, intriguing mysteries, and themes of power, sacrifice, and redemption, offering a visually
+                stunning and emotionally charged journey into the "League of Legends" universe."</p>
+        </section>
+
+        <section id="protagonist" class="protagonist">
+            <h1>protagonist</h1>
+            <div class="container">
+                <div class="people">
+                    <h3 class="Dleft">Vi (Powder)</h3>
+                    <img src="Assets/img/Arcane_ Jayce .jpeg" alt="">
+                    <!--Vi est l'une des protagonistes principales de la série. Anciennement connue sous le nom de Powder, elle a grandi à Zaun et est devenue une criminelle avant de se retrouver impliquée dans des événements qui changent sa vie.-->
+                    <p class="descriptionPeople Dright" >Vi is one of the main protagonists of the series. Formerly known as Powder, she grew up in Zaun and became a criminal before getting involved in events that changed her life.</p>
+                </div>
+                <div class="people">
+                    <h3 class="Dright">Jinx (Ekko)</h3>
+                        <img src="" alt="">
+                    <!-- Jinx, également connue sous le nom d'Ekko, est la sœur de Vi. Les deux sœurs suivent des trajectoires différentes, et Jinx devient un personnage central dans l'intrigue, évoluant vers un rôle antagoniste.-->
+                        <p class="descriptionPeople Dleft"> Jinx, also known as Ekko, is Vi's sister. The two sisters take different paths, and Jinx becomes a central character in the plot, evolving into an antagonistic role.
+                    </p>
+
+                </div>
+                <div class="people">
+                    <!--Caitlyn est une enquêtrice déterminée de Piltover. Elle joue un rôle clé dans la recherche de la vérité derrière les mystères qui entourent les deux cités.-->
+                    <h3 class="Dleft">Caitlyn Kiramman</h3>
+                        <img src="" alt="">
+                    <p class="descriptionPeople Dright">Caitlyn is a determined investigator from Piltover. She plays a key role in uncovering the truth behind the mysteries surrounding the two cities.
+                    </p>
+
+                </div>
+                <div class="people">
+                    <!--Jayce est un inventeur brillant de Piltover et joue un rôle crucial dans le développement de la technologie qui façonne l'avenir de la ville.-->
+                    <h3 class="Dright">Jayce Talis</h3>
+                        <img src="" alt="">
+                    <p class="descriptionPeople Dleft">Jayce is a brilliant inventor from Piltover and plays a crucial role in developing the technology that shapes the future of the city.
+                    </p>
+
+                </div>
+                <div class="people">
+                    <!--Silco est un leader charismatique et complexe de Zaun. Il est impliqué dans des affaires politiques et des luttes de pouvoir qui influencent le destin des deux cités.-->
+                    <h3 class="Dleft">Silco</h3>
+                        <img src="" alt="">
+                    <p class="descriptionPeople Dright"> Silco is a charismatic and complex leader from Zaun. He is involved in political affairs and power struggles that influence the fate of both cities.</p>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h1>Contact Me</h1>
+            
+            <p>Portofolio ==> Bryan__LK</p>
+            
+            
+        </section>
+    </div>
+    
+    <footer  class="footer">
+        <div class="container">
+            <!--
+                Ce Site est dédié à l'entraînement et à la démonstration de compétences dans le Developpement Web. À noter, que ce site n'est ni publicitaire ni lucratif ; il vise simplement à partager ma passion et mon expertise. Explorez ce contenus avec l'assurance qu'ils sont créés dans un esprit d'apprentissage authentique.
+            -->
+            <h2>Create By Bryan lk</h2>
+            <p>This site is dedicated to training and showcasing skills in Web Development. It's important to note that this site is neither promotional nor profit-driven; its purpose is simply to share my passion and expertise. Explore the content with the assurance that it is created in a spirit of genuine learning.</p>
+            <!--copyright 2023 Tous droits réservés-->
+            <p class="text-small">copyright  2023 &copy;  All rights reserved</p>
+        </div>
+    </footer>
+        
+    <script src="/Assets/js/style.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script>
+        const txtAnim = document.querySelector('#typewriter-Header');
+
+        new Typewriter(txtAnim, {
+            loop: true,
+            deleteSpeed: 20
+        })
+            .changeDelay(20)
+            .typeString('Arcane')
+            .pauseFor(2000)
+            .deleteChars(6)
+            .typeString('<span>League of Legends</span>')
+            .pauseFor(5000)
+            .deleteChars(18)
+            .typeString('Arcane')
+
+            .start()
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+:root{
+    --Montserat: 'Montserrat', sans-serif;
+    --white:white;
+    --black:black;
+}
+html{
+    scroll-behavior: smooth;
+}
+*,
+::after ,
+::before{
+    margin:0;
+    padding: 0;
+    box-sizing: inherit;
+}
+/* Pour les navigateurs basés sur WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 0%;
+    /* Largeur de la scrollbar */
+}
+::-webkit-scrollbar-thumb {
+    background-color: #888888a9;
+    /* Couleur de la poignée de la scrollbar */
+}
+/* Pour Internet Explorer uniquement */
+body {
+    font-family: var(--body-familly);
+    --scrollbar-base-color: #333;
+    /* Couleur de fond de la scrollbar */
+    --scrollbar-face-color: #666;
+    /* Couleur de la face de la scrollbar */
+    --scrollbar-arrow-color: #fff;
+    /* Couleur de la flèche de la scrollbar */
+    --scrollbar-3dlight-color: #999;
+    /* Couleur de la lumière 3D */
+    --scrollbar-shadow-color: #555;
+    /* Couleur de l'ombre de la scrollbar */
+    --scrollbar-highlight-color: #777;
+    /* Couleur du surlignage de la scrollbar */
+   --scrollbar-darkshadow-color: #444;
+    /* Couleur de l'ombre sombre de la scrollbar */
+    font-size:16px;
+    margin: 0;
+    padding: 0;
+    font-family: var(--Montserat);
+    color:var(--white);
+    background-image: url("/Assets/img/wp10215747-arcane-2021-wallpapers.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li{
+    list-style: none;
+}
+
+a{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--white);
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+p{
+    font-size: 2em;
+    letter-spacing: 1.5px;
+    line-height: 50px;
+}
+.text-small{
+    font-size: 1em;
+}
+.header{
+    color: var(--white);
+    width: 100%;
+    height: 100vh;
+    background-image: url("/Assets/img/wp10234709-jinx-arcane-wallpapers.jpg");
+    background-attachment: fixed;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 80px;
+}
+nav ul{
+    height:100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+header .container h1{
+    font-size: 9em;
+    font-weight: 900;
+    width: 100%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 5% 0%;
+    font-weight: bold;
+}
+section h1{
+    text-transform: uppercase;
+    text-decoration: double;
+    font-size: 12em;
+}
+section h3{
+    font-size: 5em;
+}
+section p{
+    font-size: 1.5em;
+}
+.story{
+    height: 100vh;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #444;
+}
+
+.protagonist .container{
+    padding: 0% 5%;
+
+}
+.people{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20% 0%;
+}
+.people img{
+    align-self: center;
+    width: auto;
+    height: 60vh;
+}
+.descriptionPeople{
+    width: 50%;
+    line-height: 35px;
+}
+.Dright{
+    text-align: right;
+    align-self: flex-end;
+}
+
+.Dleft{
+    text-align: left;
+    align-self: flex-start;
+}
+
+
+.footer{
+    text-align: center;
+    z-index: 2;
+    height: 100vh;
+    background-image: url("/Assets/img/arcane-hd-wallpapers.jpg");
+    object-fit: cover;
+    background-position:0px 5000px 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: bold;
+}
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: #33333371;
+}
+.footer .container h2{
+    padding-top: 10%;
+}
