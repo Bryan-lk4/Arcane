@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Arcane Bryan lk</title>
 </head>
 
@@ -17,9 +18,9 @@
                 Contactez Moi
             -->
             <ul>
-                <li><a href="#story">Story</a></li>
-                <li><a href="#protagonist">protagonist</a></li>
-                <li><a href="#contact">Contact me</a></li>
+                <li class="link"><a href="#story">Story</a></li>
+                <li class="link"><a href="#protagonist">protagonist</a></li>
+                <li class="link"><a href="#">Contact me</a></li>
             </ul>
         </nav>
         <div class="container">
@@ -29,8 +30,8 @@
     <div class="container">
         <section id="story" class="story">
             <!--"Arcane" est une série animée captivante se déroulant dans l'univers de "League of Legends". L'histoire se déroule dans les cités rivales de Piltover, un centre de technologie et de progrès, et Zaun, une cité souterraine sombre et défavorisée. Elle suit deux sœurs, Vi et Jinx, dont les destins divergent radicalement. Alors que Piltover cherche à maintenir sa dominance, des forces obscures à Zaun menacent l'équilibre fragile. La série explore des personnages complexes, des mystères intrigants et des thèmes de pouvoir, de sacrifice et de rédemption, offrant un voyage visuellement époustouflant et émotionnellement intense dans l'univers de "League of Legends" -->
-            <h1>Story</h1>
-
+            <h1 class="title" id="Title1">Story</h1>
+            
             <p>Arcane is a captivating animated series set in the world of "League of Legends." It unfolds in the rival
                 cities of Piltover, a hub of technology and progress, and Zaun, a dark and disadvantaged underground
                 city. The story follows two sisters, Vi and Jinx, whose paths diverge dramatically. As Piltover aims to
@@ -40,55 +41,64 @@
         </section>
 
         <section id="protagonist" class="protagonist">
-            <h1>protagonist</h1>
             <div class="container">
-                <div class="people">
-                    <h3 class="Dleft">Vi (Powder)</h3>
-                    <img src="Assets/img/Arcane_ Jayce .jpeg" alt="">
+                <h1 class="title" id="Title2">protagonist</h1>
+                <div class="people" id="P1">
+                    <div class="shadow"></div>
+                    <h3  class="Dleft">Vi (Powder)</h3>
+                    <img class="imgPeople" id="viImage1"
+                    src="/docs/Assets/img/power.jpg" alt="">
                     <!--Vi est l'une des protagonistes principales de la série. Anciennement connue sous le nom de Powder, elle a grandi à Zaun et est devenue une criminelle avant de se retrouver impliquée dans des événements qui changent sa vie.-->
-                    <p class="descriptionPeople Dright" >Vi is one of the main protagonists of the series. Formerly known as Powder, she grew up in Zaun and became a criminal before getting involved in events that changed her life.</p>
+                    <p 
+                    class="descriptionPeople Dright" >Vi is one of the main protagonists of the series. Formerly known as Powder, she grew up in Zaun and became a criminal before getting involved in events that changed her life.</p>
                 </div>
-                <div class="people">
+                <div class="people" id="P2">
+                    <div class="shadow"></div>
                     <h3 class="Dright">Jinx (Ekko)</h3>
-                        <img src="" alt="">
+                        <img class="imgPeople" id="viImage2"
+                        
+                        src="/docs/Assets/img/jinx.jpg" alt="">
                     <!-- Jinx, également connue sous le nom d'Ekko, est la sœur de Vi. Les deux sœurs suivent des trajectoires différentes, et Jinx devient un personnage central dans l'intrigue, évoluant vers un rôle antagoniste.-->
                         <p class="descriptionPeople Dleft"> Jinx, also known as Ekko, is Vi's sister. The two sisters take different paths, and Jinx becomes a central character in the plot, evolving into an antagonistic role.
                     </p>
 
                 </div>
-                <div class="people">
+                <div class="people" id="P3">
+                    <div class="shadow"></div>
                     <!--Caitlyn est une enquêtrice déterminée de Piltover. Elle joue un rôle clé dans la recherche de la vérité derrière les mystères qui entourent les deux cités.-->
                     <h3 class="Dleft">Caitlyn Kiramman</h3>
-                        <img src="" alt="">
+                        <img class="imgPeople" id="viImage" src="/docs/Assets/img/caitlyn kiramman arcane.jpeg" alt="">
                     <p class="descriptionPeople Dright">Caitlyn is a determined investigator from Piltover. She plays a key role in uncovering the truth behind the mysteries surrounding the two cities.
                     </p>
 
                 </div>
-                <div class="people">
+                <div class="people" id="P4">
+                    
                     <!--Jayce est un inventeur brillant de Piltover et joue un rôle crucial dans le développement de la technologie qui façonne l'avenir de la ville.-->
+                    <div class="shadow"></div>
                     <h3 class="Dright">Jayce Talis</h3>
-                        <img src="" alt="">
+                        <img class="imgPeople" id="viImage" src="/docs/Assets/img/Arcane_ Jayce .jpeg" alt="">
                     <p class="descriptionPeople Dleft">Jayce is a brilliant inventor from Piltover and plays a crucial role in developing the technology that shapes the future of the city.
                     </p>
 
                 </div>
-                <div class="people">
+                <div class="people" id="P5">
                     <!--Silco est un leader charismatique et complexe de Zaun. Il est impliqué dans des affaires politiques et des luttes de pouvoir qui influencent le destin des deux cités.-->
+                    <div class="shadow"></div>
                     <h3 class="Dleft">Silco</h3>
-                        <img src="" alt="">
+                        <img class="imgPeople" id="viImage" src="/docs/Assets/img/silco1.jpg" alt="">
                     <p class="descriptionPeople Dright"> Silco is a charismatic and complex leader from Zaun. He is involved in political affairs and power struggles that influence the fate of both cities.</p>
 
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="contact">
-            <h1>Contact Me</h1>
+        <div id="contact" class="contact">
+            <h1 class="title">Contact Me</h1>
             
-            <p>Portofolio ==> Bryan__LK</p>
-            
-            
-        </section>
+            <p>Portofolio |==> <a href="http://" target="_blank" rel="noopener noreferrer">Bryan__LK</a></p>
+       
+        </div>
     </div>
     
     <footer  class="footer">
@@ -103,8 +113,14 @@
         </div>
     </footer>
         
-    <script src="/Assets/js/style.js"></script>
+   
+
+
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    
+    <script>
+        AOS.init();
+      </script>
 
     <script>
         const txtAnim = document.querySelector('#typewriter-Header');
@@ -123,7 +139,16 @@
             .typeString('Arcane')
 
             .start()
-    </script>
+        </script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+
+        
+        <script src="../docs/Assets/js/style.js"></script>
 </body>
 
 </html>
