@@ -19,7 +19,6 @@ gsap.to("#viImage1" , {
   height:"40vh",
   scrollTrigger: {
       trigger: '#viImage1',
-      markers: true,
     }
 })
 document.addEventListener("DOMContentLoaded", function () {
